@@ -1,0 +1,39 @@
+*{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 10px;
+}
+.media{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.Header{
+    padding: 30px;
+}
+.Navigation{
+    padding: 15px;
+}
+.content{
+    width: 15%;
+    float: left;
+    min-height: 400px;
+    line-height: 400px;
+}
+.Main{
+    width: 70%;
+    float: left;
+    min-height: 400px;
+    line-height: 400px;
+}
+.Footer{
+    clear: both;
+    padding: 20px;
+}
+.Header,.Navigation,.content,.Main,.Footer{
+    background-color: darkgray; 
+}
+@media  screen and (max-width:620px){
+
+}
